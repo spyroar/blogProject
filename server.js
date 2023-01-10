@@ -33,6 +33,6 @@ const port=process.env.port || 5555;
   })
   app.use('/articles',articleRoute);
 app.listen(port,()=>{
-      console.log(`Port is Running on ${port}`);
+      console.log(`Port is Running on Number: ${port}`);
 })
 
